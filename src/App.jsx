@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Showcase from './components/Showcase';
+import MonoHero from './components/MonoHero';
+import ScrollLayers from './components/ScrollLayers';
+import PipeSection from './components/PipeSection';
 import Contact from './components/Contact';
 
 function App() {
@@ -8,8 +9,9 @@ function App() {
     <div className="bg-black text-white min-h-screen">
       <Navbar />
       <main>
-        <Hero />
-        <Showcase />
+        <MonoHero />
+        <ScrollLayers />
+        <PipeSection />
         <Contact />
       </main>
       <footer className="bg-black border-t border-white/10 py-10">
